@@ -1,0 +1,29 @@
+{
+  "name": "create-api-rest-express-db",
+  "version": "1.0.0",
+  "bin": {
+    "create-api-rest-express-db":"index.js"
+  },
+  "description": "A CLI to automatically clone the [Express API Starter](https://github.com/iwfet/express-api-rest-starter) or the [Express API Starter with Typescript](https://github.com/iwfet/express-api-rest-starter).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwfet/create-api-rest-express-db.git"
+  },
+  "keywords": [],
+  "author": "iwfet <j13vvc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwfet/create-api-rest-express-db/issues"
+  },
+  "homepage": "https://github.com/iwfet/create-api-rest-express-db#readme",
+  "dependencies": {
+    "args": "^5.0.3",
+    "chalk": "^5.1.2",
+    "degit": "^2.8.4",
+    "yargs-parser": "^21.1.1"
+  }
+}
